@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <style>
+      html, body {
+        height: 100vh;
+      }
+      body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: <%= backgroundColor %>;
+      }
+      form {
+        width: 300px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="/set-favorite-color" method="POST">
+      <p>Choose your favorite color: <input type="color" name="favorite-color" /></p>
+      <p><input type="submit" />
+    </form>
+  </body>
+</html>
