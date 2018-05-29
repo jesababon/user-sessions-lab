@@ -32,7 +32,8 @@ track of their favorite color, and shows it as the site background.
     sessions.
 
 1.  Set the default value for the color picker to the user's favorite color.
-    BONUS
+
+## BONUS
 
 1.  The default Express session storage mechanism is in memory, and not recommended
     for production. Add in [`session-file-store`](https://www.npmjs.com/package/session-file-store)
