@@ -9,8 +9,8 @@
         height: 100vh;
       }
       body {
-        font-family: 'Open Sans', sans-serif;
-        background-color: <%= backgroundColor %>;
+        font-family: <%= fontFamily %>;
+        background-color: <%= backgroundColor %>
       }
       form {
         width: 300px;
@@ -23,6 +23,11 @@
   <body>
     <form action="/set-favorite-color" method="POST">
       <p>Choose your favorite color: <input type="color" name="favorite-color" /></p>
+      <select name="font-family-dropdown" id="font-family-dropdown">
+        <option value="Helvetica">Helvetica</option>
+        <option value="Open Sans">Open Sans</option>
+        <option value="Courier">Courier</option>
+      </select>
       <p><input type="submit" />
     </form>
   </body>
