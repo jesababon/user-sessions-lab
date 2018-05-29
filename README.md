@@ -33,6 +33,8 @@ track of their favorite color, and shows it as the site background.
 
 1.  Set the default value for the color picker to the user's favorite color.
 
+1.  Allow users to choose their favorite font in a dropdown from a few like `Helvetica`, `Open Sans`, and `Courier`. Save the user's favorite font on their session, and display the text in that font on the homepage.
+
 ## BONUS
 
 1.  The default Express session storage mechanism is in memory, and not recommended
